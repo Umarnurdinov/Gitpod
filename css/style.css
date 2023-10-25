@@ -542,3 +542,16 @@ button {
     gap: 20px;
   }
 }
+.companys {
+  padding: 100px 123px;
+}
+.companys__logos {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 35px;
+}
+@media screen and (max-width: 900px) {
+  .companys {
+    padding: 30px;
+  }
+}
