@@ -542,6 +542,9 @@ button {
     gap: 20px;
   }
 }
+
+/* COMPANYS */
+
 .companys {
   padding: 100px 123px;
 }
@@ -552,6 +555,236 @@ button {
 }
 @media screen and (max-width: 900px) {
   .companys {
+    padding: 30px;
+  }
+}
+.social {
+  padding: 100px 0 20px 0;
+}
+.social-header {
+  color: #12100c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 71.82px;
+}
+
+.social__cards {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  justify-content: space-between;
+}
+.social__card1 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: #fff;
+  padding: 80px;
+}
+.card1__content {
+  display: flex;
+  flex-direction: column;
+}
+.card1-text1 {
+  color: #12100c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  margin-bottom: 0;
+}
+.card1-text2 {
+  color: rgba(18, 16, 12, 0.7);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.92px;
+}
+.card1__btns {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin: 50px 0;
+}
+.card1-btn1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  width: 262px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #fc6d26;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.card1-btn2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  width: 262px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #000;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.card1-btn3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  width: 262px;
+  height: 46px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #2684ff;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.card1__footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.card1__footer-text {
+  color: rgba(18, 16, 12, 0.7);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.92px;
+}
+.card1__footer-btn {
+  color: rgba(18, 16, 12, 0.7);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.92px;
+  width: 151px;
+  height: 31px;
+  border-radius: 12px;
+  background: #ffe4bc;
+}
+.social__card2 {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  background: #fff;
+  padding: 80px;
+}
+.card2__content {
+  display: flex;
+  flex-direction: column;
+}
+.card2-text1 {
+  margin-bottom: 0;
+  color: #12100c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.card2-text2 {
+  color: rgba(18, 16, 12, 0.7);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 23px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.92px;
+}
+.card2__titles {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card2__title1 {
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #f9f9f9;
+  flex-wrap: wrap;
+}
+.title1-text {
+  color: rgba(18, 16, 12, 0.7);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.title1-btn {
+  color: #fff;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  width: 143px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  background: #12100c;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 1100px) {
+  .social__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 750px) {
+  .social__card1 {
+    padding: 10px;
+  }
+  .social__card2 {
     padding: 30px;
   }
 }
