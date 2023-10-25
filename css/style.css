@@ -788,3 +788,130 @@ button {
     padding: 30px;
   }
 }
+
+/* FOOTER */
+
+.footer {
+  background: #f9f9f9;
+}
+
+.footer__cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 200px;
+  padding: 50px 0;
+}
+.footer__card1 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card1-logo {
+  color: #12100c;
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 19.5px;
+}
+.card1__nav {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.card1__nav-link {
+  color: rgba(18, 16, 12, 0.7);
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.footer__center {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.footer__logo-text {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: rgba(18, 16, 12, 0.7);
+  font-family: Roboto;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 19.5px;
+}
+.footer__logos {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer__end {
+  padding: 0 10px;
+  background: #ece7e5;
+}
+.footer__end__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.footer__end__texts {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.footer__end__text1 {
+  color: rgba(18, 16, 12, 0.7);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.footer__end__text2 {
+  color: rgba(18, 16, 12, 0.59);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  text-decoration-line: underline;
+}
+.footer__end__text3 {
+  color: rgba(18, 16, 12, 0.7);
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.footer__end-btn {
+  width: 163px;
+  height: 32px;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #f9f9f9;
+  color: rgba(18, 16, 12, 0.7);
+  text-align: center;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+@media screen and (max-width: 300px) {
+  .footer__cards {
+    display: flex;
+    flex-direction: column;
+    gap: 90px;
+    text-align: center;
+  }
+}
