@@ -1,4 +1,5 @@
 body {
+  background: #f3f0f0;
   font-family: "Roboto" sans-serif;
   margin: 0;
 }
@@ -432,5 +433,112 @@ button {
     flex-direction: column;
     justify-content: center;
     gap: 25px;
+  }
+}
+
+/* DEVELOPERS */
+
+.developers {
+  margin: 184px 0 0 0;
+}
+.developers__content {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.developers-header {
+  color: #12100c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 63.72px;
+  margin: 0;
+}
+.developers__cards {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+}
+.developers__card {
+  padding: 20px;
+  width: 384px;
+  height: 272px;
+  border-radius: 16px;
+  background: #fff;
+}
+.developers-text1 {
+  color: #12100c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.developers-text2 {
+  color: #12100c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.developers__footer {
+  display: flex;
+  gap: 20px;
+}
+.developers__texts {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.developers-text3 {
+  color: #12100c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px;
+}
+.developers-text4 {
+  color: #12100c;
+  font-family: Roboto;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+.developers__footer img {
+  object-fit: cover;
+  width: 48px;
+  height: 48px;
+  border-radius: 9999px;
+}
+@media screen and (max-width: 830px) {
+  .developers-header {
+    font-size: 30px;
+  }
+  .developers__content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+}
+@media screen and (max-width: 460px) {
+  .developers__card {
+    height: 100%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .developers-header {
+    font-size: 14px;
+  }
+  .developers__content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
