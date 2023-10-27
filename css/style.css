@@ -5,6 +5,9 @@ body {
 a {
   text-decoration: none;
 }
+button {
+  border: none;
+}
 .container {
   max-width: 1240px;
   margin: 0 auto;
@@ -43,14 +46,15 @@ a {
   height: 32px;
   border-radius: 12px;
   background: #12100c;
-  border: none;
 }
 @media screen and (max-width: 840px) {
   .header__nav {
     display: none;
   }
 }
+
 /* HERO */
+
 .hero {
   margin: 52px 0 0 0;
   padding: 15px 0;
@@ -144,7 +148,9 @@ a {
     gap: 20px;
   }
 }
+
 /* CONTENT */
+
 .content {
   margin: 221px 0 0 0;
   padding: 15px 0;
@@ -215,7 +221,112 @@ a {
   .content-text2,
   .content-text3,
   .content-text4 {
-    font-size: 20px;
+    font-size: 13px;
     line-height: 20px;
+  }
+}
+
+/* CODING */
+
+.coding {
+  margin: 260px 0;
+}
+.coding__content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.coding__title {
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+.coding__texts {
+  display: flex;
+  flex-direction: column;
+}
+.coding-text1 {
+  margin: 0;
+  color: #12100c;
+  font-family: Roboto;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+}
+.coding-text2 {
+  color: rgba(18, 16, 12, 0.7);
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 31.92px;
+}
+.coding__btns {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.coding-btn1 {
+  color: #12100c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  width: 162px;
+  height: 32px;
+  border-radius: 10.5px;
+  background: #ffae33;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.coding-btn2 {
+  color: #12100c;
+  text-align: center;
+  font-family: Roboto;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  width: 146px;
+  height: 32px;
+  border-radius: 10.5px;
+  background: #ffb0ae;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.content-img {
+  width: 100%;
+  border-radius: 20px;
+  box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.08);
+}
+@media screen and (max-width: 1115px) {
+  .coding__content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: center;
+  }
+  .coding__btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .coding-text1 {
+    font-size: 17px;
+    line-height: 20px;
+  }
+  .coding-text2 {
+    font-size: 9px;
+    line-height: 15px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .coding__btns {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
 }
